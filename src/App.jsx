@@ -1,9 +1,14 @@
+import Hero from "./components/Hero"
+import { Highlights } from "./components/Highlights"
+import { NavBar } from "./components/NavBar"
 
 function App() {
 
-  return (
-    <div className="text-blue-800">Hello World</div>
-  )
+  return (<main>
+      <NavBar/>
+      <Hero/>
+      <Highlights/>
+  </main>)
 }
 
 export default App
